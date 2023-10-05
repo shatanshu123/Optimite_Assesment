@@ -1,0 +1,31 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #d1d5db;
+}
+
+.button {
+  padding: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  background-color: #3b82f6;
+  border: 1px solid #2563eb;
+  border-radius: 3px;
+  color: #ffffff;
+  box-shadow: 1px 1px 2px #1e293b;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #2563eb;
+}
+
+.logo {
+  border-radius: 5px;
+}

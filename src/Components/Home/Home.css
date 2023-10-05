@@ -1,0 +1,152 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    background: hidden;
+    background-color: #94a3b8;
+}
+
+.product-container {
+    padding: 20px 20px;
+}
+
+#cards-container {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.card-container {
+    padding: 10px;
+    max-width: 200px;
+    border-radius: 10px ;
+    box-shadow: 1px 1px 10px #1e293b;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.card-header {
+    max-width: 180px;
+    max-height: 200px;
+    object-fit: contain;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-title {
+    width: 100%;
+    height: 34px;
+    overflow: hidden;
+}
+
+.card-footer span:hover {
+    cursor: pointer;
+    color: #dc2626;
+}
+
+.card-footer h3 {
+    margin: 0;
+}
+
+select {
+    appearance: none;
+    background-color: #3b82f6;
+    color: #fff;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+select:hover {
+    background-color: #2563eb;
+    cursor: pointer;
+}
+
+select option {
+    background-color: #3f3f46;
+}
+
+.circular-progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    font-size: 30px;
+}
+
+.popup {
+    padding: 10px 20px;
+    max-width: 500px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    box-shadow: 1px 1px 10px #1e293b;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.input {
+    padding: 5px;
+    margin: 5px 0 10px 2px;
+    width: 300px;
+}
+
+.text-area {
+    width: 300px;
+    height: 100px;
+}
+
+.disabled-button {
+    box-shadow: 1px 1px 2px #3f3f46;
+    border: 0;
+    border-radius: 5px;
+}
+
+.text-normal {
+    text-decoration: none;
+}
+
+.info-container {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: center;
+    gap: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #1e293b;
+    margin: 20px;
+}
+
+.logo{
+    cursor: pointer;
+}
